@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="Selamat Datang di Aplikasi Mobile MI 2A!"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBuku"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="Recycle View"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btnBuah"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="Recycle Buah"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btnMovie"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="Recycle Movie"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </LinearLayout>
